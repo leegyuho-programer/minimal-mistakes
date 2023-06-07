@@ -271,19 +271,3 @@ def solution(phone_number):
 def hide_numbers(s):
     return "*"*(len(s)-4)+s[-4:]
 ```
-
-
-형 변환
-```python
-문제 설명
-
-
-제한 조건
-
-
-입출력 예
-
-
-문제 풀이
-
-```
