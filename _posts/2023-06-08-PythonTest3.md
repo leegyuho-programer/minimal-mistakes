@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  " PythonTest 1일차"
+title:  " PythonTest 3일차"
 ---
 
 
