@@ -274,22 +274,27 @@ def solution(n, m):
     else:
         gcd = 1
     return answer[gcd, lcm]
+    
 두번째 풀이
-
-```
-
-
-형 변환
-```python
-문제 설명
-
-
-제한 조건
-
-
-입출력 예
-
-
-문제 풀이
-
+def solution(n, m):
+    answer = []
+    for i in reversed(range(1, min(n, m)+1)):
+        if n%i == 0 and m%i == 0:
+            gcd = i
+            answer.append(i)
+            answer.append(n*m // i)
+            break
+    return answer
+    
+    
+다른 사람 풀이
+def solution(n, m):
+    answer =[]
+    for i in range(min(m,n),0,-1):
+        if n%i==0 and m%i ==0 :
+            answer.append(i)
+            answer.append(m*n//i)
+            break
+    
+    return answer
 ```
