@@ -4,7 +4,7 @@ title:  " PythonTest 1일차"
 ---
 
 
-약수의 
+약수의 합
 ```python
 문제 설명
 정수 n을 입력받아 n의 약수를 모두 더한 값을 리턴하는 함수, solution을 완성해주세요.
@@ -33,7 +33,7 @@ def solution(n):
 
 
 
-평균 구하
+평균 구하기
 ```python
 문제 설명
 정수를 담고 있는 배열 arr의 평균값을 return하는 함수, solution을 완성해보세요.
