@@ -176,10 +176,8 @@ str은 부호(+,-)와 숫자로만 구성되어 있고, 잘못된 값이 입력�
 
 문제 풀이
 def solution(s):
-    if 1 <= len(str(s)) <= 5:
-    	return int(str(s))
-    else:
-        return 1
+    if 1 <= len(s) <= 5:
+    	return int(s)
     
 다른 사람 풀이
 1.
