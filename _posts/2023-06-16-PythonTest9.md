@@ -292,6 +292,6 @@ def solution(today, terms, privacies):
         sday = sy * (12 * 28) + sm * 28 + sd
         termday = t2m[term] * 28
         if not today < sday + termday:
-            answer.append(idx)
+            answer.append(idx+1)
     return answer
 ```
